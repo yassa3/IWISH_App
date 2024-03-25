@@ -1,4 +1,4 @@
-#[I-Wish: Your Personalized Gift Sharing Application]
+<h1>I-Wish: Your Personalized Gift Sharing Application<h1>
 i-Wish is a feature-rich desktop application designed to enhance the joy of gift-giving and receiving among friends. With i-Wish, users can seamlessly create wish lists, share them with friends, contribute to buying items from friends' wish lists, and receive notifications about gift item purchases. Whether you're looking to surprise a friend or receive thoughtful gifts, i-Wish makes the process fun and easy.
 Features
 #[Client-Side Features]
