@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="904.0" prefWidth="1117.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.HomePageController">
+   <children>
+      <ImageView fitHeight="904.0" fitWidth="1117.0">
+         <image>
+            <Image url="@Images/Home.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c9c9c9" height="711.0" layoutX="58.0" layoutY="97.0" opacity="0.3" stroke="#aeaeae" strokeType="INSIDE" width="995.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="104.0" layoutX="689.0" layoutY="246.0" opacity="0.15" stroke="BLACK" strokeType="INSIDE" width="354.0" />
+      <Button fx:id="ProfileHP" layoutX="257.0" layoutY="111.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="110.0" text="Profile" textFill="#620097">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="FriendHomeButt" layoutX="388.0" layoutY="111.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="110.0" text="Friend" textFill="#620097">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="FriendWLHP" layoutX="516.0" layoutY="111.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="134.0" text="FriendWL" textFill="#620097">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="WalletHP" layoutX="669.0" layoutY="111.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="110.0" text="Wallet" textFill="#620097">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="AboutHP" layoutX="799.0" layoutY="111.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="110.0" text="About" textFill="#620097">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="LogoutHP" layoutX="932.0" layoutY="111.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="110.0" text="Logout" textFill="#620097">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font>
+      </Button>
+      <Line endX="820.0" endY="-27.0" layoutX="233.0" layoutY="213.0" startX="-175.0" startY="-33.0" stroke="WHITE" />
+      <Line endX="34.0" endY="-196.0" fill="BLACK" layoutX="180.0" layoutY="293.0" startX="34.0" startY="-112.0" stroke="WHITE" />
+      <TableView layoutX="66.0" layoutY="354.0" prefHeight="373.0" prefWidth="517.0">
+        <columns>
+          <TableColumn fx:id="barcodeColumnHomeRemove" prefWidth="90.0" text="barcode" />
+          <TableColumn fx:id="ItemColumnHomeRemove" prefWidth="106.0" text="Item Name" />
+            <TableColumn fx:id="DescribeColumnHomeRemove" prefWidth="116.0" text="Describe" />
+            <TableColumn fx:id="CategoryColumnHomeRemove" prefWidth="101.0" text="Category" />
+            <TableColumn fx:id="priceColumnHomeRemove" prefWidth="113.0" text="price" />
+        </columns>
+      </TableView>
+      <Button fx:id="RemoveBHP" layoutX="97.0" layoutY="739.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="134.0" text="Remove" textFill="#620097">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Button>
+      <TextField layoutX="699.0" layoutY="283.0" prefHeight="16.0" prefWidth="201.0" />
+      <Button fx:id="AddBHP" layoutX="765.0" layoutY="739.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="110.0" text="Add" textFill="#620097">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="balance_label_HP" alignment="CENTER" layoutX="762.0" layoutY="193.0" prefHeight="52.0" prefWidth="134.0" text="balance" textFill="#d483ff">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="SearchHP1" alignment="CENTER" layoutX="104.0" layoutY="272.0" prefHeight="52.0" prefWidth="381.0" text="Your WishList" textFill="#d483ff">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="45.0" />
+         </font>
+      </Label>
+      <Label fx:id="SearchHP11" alignment="CENTER" layoutX="381.0" layoutY="29.0" prefHeight="52.0" prefWidth="381.0" text="Home" textFill="#d483ff">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="50.0" />
+         </font>
+      </Label>
+      <Button fx:id="SearchBHP1" layoutX="916.0" layoutY="272.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="121.0" text="Search" textFill="#620097">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Button>
+      <TableView layoutX="598.0" layoutY="353.0" prefHeight="373.0" prefWidth="444.0">
+         <columns>
+            <TableColumn fx:id="barcode_searchHP1" prefWidth="78.0" text="barcode" />
+            <TableColumn fx:id="ItemName_searchHP1" prefWidth="89.0" text="Item Name" />
+            <TableColumn fx:id="Describe_searchHP1" prefWidth="102.0" text="Describe" />
+            <TableColumn fx:id="Category_searchHP1" prefWidth="93.0" text="Category" />
+            <TableColumn fx:id="price_searchHP1" prefWidth="81.0" text="price" />
+         </columns>
+      </TableView>
+      <Text fx:id="textHP__" fill="WHITE" layoutX="896.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="144.6708984375">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="textHP1" fill="#d483ff" layoutX="131.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User_Name" textAlignment="CENTER" wrappingWidth="327.6708984375">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Text>
+      
+      <ImageView fitHeight="92.0" fitWidth="121.0" layoutX="66.0" layoutY="91.0">
+         <image>
+            <Image url="@Images/png-image.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="WishListButton" layoutX="374.0" layoutY="744.0" mnemonicParsing="false" text="My Wish List" textFill="#620097">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

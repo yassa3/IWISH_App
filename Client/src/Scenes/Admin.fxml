@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ImageInput?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="home" fitHeight="900.0" fitWidth="1300.0">
+         <image>
+            <Image url="@Images/Home.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="58.0" layoutY="135.0" text="Barcode" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="234.0" text="Name" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="321.0" text="Description" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="412.0" prefHeight="45.0" prefWidth="150.0" text="Category" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="514.0" text="Price" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Text fill="WHITE" layoutX="565.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin ">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Text>
+      <TextField fx:id="barcode" layoutX="498.0" layoutY="142.0" prefHeight="31.0" prefWidth="364.0" promptText="Enter Barcode" />
+      <TextField fx:id="item_name" layoutX="498.0" layoutY="241.0" prefHeight="31.0" prefWidth="364.0" promptText="Enter Item Name" />
+      <TextField fx:id="description" layoutX="498.0" layoutY="328.0" prefHeight="31.0" prefWidth="364.0" promptText="Enter Item Description" />
+      <TextField fx:id="category" layoutX="498.0" layoutY="419.0" prefHeight="31.0" prefWidth="364.0" promptText="Enter Item Category" />
+      <TextField fx:id="price" layoutX="498.0" layoutY="521.0" prefHeight="31.0" prefWidth="364.0" promptText="Enter Item Price" />
+      <Button fx:id="insert" layoutX="166.0" layoutY="651.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="316.0" text="Insert" textFill="#9b00c6">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Buttongoback_friends" layoutX="69.0" layoutY="32.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="58.0" text="Button">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="@Images/icons8-back-50.png" />
+               </source>
+            </ImageInput>
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

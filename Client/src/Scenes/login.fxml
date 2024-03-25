@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="896.0" prefWidth="924.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="i.wish.project.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="896.0" fitWidth="924.0">
+         <image>
+            <Image url="@Images\Frame%203%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="573.0" fitWidth="527.0" layoutX="379.0" layoutY="14.0">
+         <image>
+            <Image url="@Images\257044_0f5a0.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="573.0" fitWidth="527.0" layoutX="378.0" layoutY="17.0">
+         <image>
+            <Image url="@Images\200w.gif" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b5b5b5" height="573.0" layoutX="379.0" layoutY="17.0" opacity="0.3" stroke="#797979" strokeType="INSIDE" width="527.0" />
+      <Label fx:id="UserName_Login" layoutX="385.0" layoutY="135.0" prefHeight="43.0" prefWidth="169.0" text="User Name" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="Password_Login" layoutX="385.0" layoutY="211.0" prefHeight="43.0" prefWidth="154.0" text="Password" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="EnterYourNAME_login" layoutX="560.0" layoutY="141.0" prefHeight="31.0" prefWidth="300.0" promptText="EnterYourNAME" />
+      <PasswordField fx:id="EnterYourPassword_login" layoutX="562.0" layoutY="217.0" prefHeight="31.0" prefWidth="300.0" promptText="EnterYourPassword" />
+      <Text fx:id="errorTextField" fill="#f50707" layoutX="576.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="268.13671875" />
+      <Button fx:id="LOGIN_loginB" layoutX="575.0" layoutY="396.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="135.0" text="Login" textFill="#af00bb">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Button>
+      <Label fx:id="DoNotHaveAccountLogin" layoutX="409.0" layoutY="513.0" prefHeight="43.0" prefWidth="280.0" text="don't have account" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Button fx:id="Register_loginB" layoutX="702.0" layoutY="507.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="161.0" text="Register" textFill="#af00bb">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="forgetpassword_loginB" layoutX="713.0" layoutY="271.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="189.0" text="forget your password?" textFill="#af00bb">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="IWishlogin" layoutX="589.0" layoutY="57.0" prefHeight="46.0" prefWidth="135.0" text="I Wish" textFill="#d483ff">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="50.0" />
+         </font>
+      </Label>
+      <Label fx:id="WISHWHATYOUWANTlogin" layoutX="13.0" layoutY="282.0" prefHeight="43.0" prefWidth="344.0" text="WISH WHAT YOU WANT" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="IWishlogin1" alignment="CENTER" layoutX="36.0" layoutY="49.0" prefHeight="184.0" prefWidth="223.0" text="LOGIN" textFill="#d483ff">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="50.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="305.0" fitWidth="344.0" layoutX="565.0" layoutY="591.0">
+         <image>
+            <Image url="@Images\1546789_cb2c8.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

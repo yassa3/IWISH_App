@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ImageInput?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="888.0" prefWidth="826.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="888.0" fitWidth="826.0">
+         <image>
+            <Image url="@Images/Frame%205%20(1).png" />
+         </image>
+      </ImageView>
+      <TableView layoutX="89.0" layoutY="517.0" prefHeight="276.0" prefWidth="255.0">
+        <columns>
+          <TableColumn fx:id="Name_Friends" prefWidth="130.0" text="Name" />
+          <TableColumn fx:id="Email_Friends" prefWidth="124.0" text="E-mail" />
+        </columns>
+      </TableView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="399.0" layoutX="8.0" layoutY="71.0" opacity="0.15" stroke="BLACK" strokeType="INSIDE" width="796.0" />
+      <TextField layoutX="141.0" layoutY="98.0" prefHeight="31.0" prefWidth="324.0" />
+      <Button fx:id="AddB_Friend" layoutX="137.0" layoutY="404.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="110.0" text="Add" textFill="#620097">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="SearchB_Friend" layoutX="500.0" layoutY="87.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="121.0" text="Search" textFill="#620097">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Button>
+      <TableView fx:id="name_Friendrequest" layoutX="453.0" layoutY="512.0" prefHeight="285.0" prefWidth="276.0">
+         <columns>
+            <TableColumn fx:id="Name_Friendsrequest" prefWidth="128.0" text="Name" />
+            <TableColumn fx:id="email_Friendrequest" prefWidth="147.0" text="E-mail" />
+         </columns>
+      </TableView>
+      <Label fx:id="friendslabel_friend" alignment="CENTER" layoutX="32.0" layoutY="460.0" prefHeight="52.0" prefWidth="381.0" text="Friends" textFill="#d483ff">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="Friendrequestlabel_friend" alignment="CENTER" layoutX="413.0" layoutY="460.0" prefHeight="52.0" prefWidth="381.0" text="Friend request" textFill="#d483ff">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="SearchHP12" alignment="CENTER" layoutX="232.0" layoutY="14.0" prefHeight="52.0" prefWidth="381.0" text="Friends" textFill="#5e1566">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="DeclineB_Friend" layoutX="591.0" layoutY="803.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="127.0" text="Decline" textFill="#620097">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="AcceptB_Friend" layoutX="465.0" layoutY="803.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="121.0" text="Accept" textFill="#620097">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="RemoveB_Friend" layoutX="141.0" layoutY="803.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="127.0" text="Remove" textFill="#620097">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="Buttongoback_friends" layoutX="23.0" layoutY="14.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="58.0" text="Button">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="@Images/icons8-home-50.png" />
+               </source>
+            </ImageInput>
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TableView layoutX="137.0" layoutY="149.0" prefHeight="231.0" prefWidth="486.0">
+         <columns>
+            <TableColumn fx:id="Name_Friends1_search" prefWidth="243.0" text="Name" />
+            <TableColumn fx:id="Email_Friends1_search" prefWidth="242.0" text="E-mail" />
+         </columns>
+      </TableView>
+      <Text fx:id="alreadyexist_err" fill="RED" layoutX="254.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="380.99998939037323">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="refresh" layoutX="348.0" layoutY="474.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="102.0" text="Refresh" textFill="#620097">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

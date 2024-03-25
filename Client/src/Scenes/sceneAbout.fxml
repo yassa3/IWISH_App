@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.ImageInput?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="599.0" prefWidth="801.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication14.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="599.0" fitWidth="801.0">
+         <image>
+            <Image url="@Images/Desktop%20-%202.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c9c9c929" height="523.0" layoutX="100.0" layoutY="19.0" stroke="#757575" strokeType="INSIDE" width="676.0" />
+      <Button fx:id="Buttongoback_about" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="58.0" text="Button">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="@Images/icons8-home-50.png" />
+               </source>
+            </ImageInput>
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Text fx:id="meetusTxt" fill="WHITE" layoutX="121.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Meet us" textAlignment="CENTER" underline="true" wrappingWidth="190.6875">
+         <font>
+            <Font name="Arial" size="40.0" />
+         </font>
+      </Text>
+      <Text fx:id="aboutTxt" fill="#dfaff8" layoutX="353.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About" textAlignment="CENTER" wrappingWidth="170.68359375">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="60.0" />
+         </font>
+      </Text>
+      <Text fx:id="needHelptxt" fill="WHITE" layoutX="130.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Need Help?">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <Text fx:id="wishMailTxt" fill="WHITE" layoutX="197.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Iwish@gamil.com">
+         <font>
+            <Font size="27.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
+      <ImageView layoutX="130.0" layoutY="404.0">
+         <image>
+            <Image url="@Images/WhatsApp%20Image%202024-01-04%20at%2019.12.12_cf590120.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="151.0" fitWidth="159.0" layoutX="118.0" layoutY="201.0">
+         <image>
+            <Image url="@Images/2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="159.0" fitWidth="152.0" layoutX="277.0" layoutY="201.0">
+         <image>
+            <Image url="@Images/3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="159.0" fitWidth="159.0" layoutX="429.0" layoutY="201.0">
+         <image>
+            <Image url="@Images/4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="151.0" fitWidth="152.0" layoutX="588.0" layoutY="205.0">
+         <image>
+            <Image url="@Images/1.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="889.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="889.0" fitWidth="1024.0">
+         <image>
+            <Image url="@Images\Frame%203%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="857.0" fitWidth="602.0" layoutX="407.0" layoutY="11.0" opacity="0.5">
+         <image>
+            <Image url="@Images\257044_0f5a0.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="857.0" fitWidth="602.0" layoutX="409.0" layoutY="10.0" opacity="0.5">
+         <image>
+            <Image url="@Images\200w.gif" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b5b5b5" height="857.0" layoutX="408.0" layoutY="12.0" opacity="0.3" stroke="BLACK" strokeType="INSIDE" width="602.0" />
+      <Label fx:id="UserNameReg" alignment="CENTER" layoutX="443.0" layoutY="82.0" prefHeight="43.0" prefWidth="186.0" text="User Name" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Label>
+      <Text fx:id="userNameError" fill="#fc0505" layoutX="739.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="163.0" />
+      <Label fx:id="FNameReg" alignment="CENTER" layoutX="435.0" layoutY="144.0" prefHeight="43.0" prefWidth="154.0" text="FName" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="passwordReg" alignment="CENTER" layoutX="435.0" layoutY="337.0" prefHeight="43.0" prefWidth="154.0" text="Password" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="confirmpasswordReg" alignment="CENTER" layoutX="399.0" layoutY="402.0" prefHeight="43.0" prefWidth="271.0" text="Confirm password" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="25.0" />
+         </font>
+      </Label>
+      <Text fx:id="confirmPasswdError" fill="#fc0303" layoutX="729.0" layoutY="461.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="163.0" />
+      <Label fx:id="EmailReg" alignment="CENTER" layoutX="427.0" layoutY="276.0" prefHeight="43.0" prefWidth="154.0" text="E-Mail" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Label>
+      <Text fx:id="emailError" fill="#f80505" layoutX="708.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="204.13671875" />
+      <Label fx:id="LNameReg" alignment="CENTER" layoutX="435.0" layoutY="209.0" prefHeight="43.0" prefWidth="154.0" text="LName" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TextfieldNAME" layoutX="670.0" layoutY="88.0" prefHeight="31.0" prefWidth="300.0" promptText="EnterYourNAME" />
+      <TextField fx:id="TextfieldFN" layoutX="670.0" layoutY="150.0" prefHeight="31.0" prefWidth="300.0" promptText="EnterYourFirstNAME" />
+      <TextField fx:id="TextfieldEMail" layoutX="670.0" layoutY="282.0" prefHeight="31.0" prefWidth="300.0" promptText="EnterYourE-Mail" />
+      <TextField fx:id="TextfieldLN" layoutX="670.0" layoutY="215.0" prefHeight="31.0" prefWidth="300.0" promptText="EnterYourLastNAME" />
+      <PasswordField fx:id="Textfieldpassword" layoutX="670.0" layoutY="343.0" prefHeight="31.0" prefWidth="300.0" promptText="EnterYourPassword" />
+      <PasswordField fx:id="Textfieldconfpassword" layoutX="670.0" layoutY="408.0" prefHeight="31.0" prefWidth="300.0" promptText="confirmYourPassword" />
+      <Label fx:id="YouHaveAccountReg" layoutX="429.0" layoutY="707.0" prefHeight="43.0" prefWidth="336.0" text="Already have account?" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Button fx:id="LoginReg" layoutX="776.0" layoutY="701.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="154.0" text="Login" textFill="#af00bb">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Button>
+      <Label fx:id="securityquestionReg" alignment="CENTER" layoutX="420.0" layoutY="515.0" prefHeight="43.0" prefWidth="254.0" text="security question" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="securityAnswerReg" alignment="CENTER" layoutX="413.0" layoutY="568.0" prefHeight="43.0" prefWidth="263.0" text="security Answer" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TextfieldsecurityAns" layoutX="677.0" layoutY="574.0" prefHeight="31.0" prefWidth="300.0" promptText="EnterYouranswer" />
+      <Button fx:id="RegisterButton" layoutX="611.0" layoutY="787.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="163.0" text="Register" textFill="#af00bb">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Button>
+      <Label fx:id="UserNameLabel6" alignment="CENTER" layoutX="40.0" layoutY="82.0" prefHeight="112.0" prefWidth="321.0" text="Registeration" textFill="#d483ff">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="50.0" />
+         </font>
+      </Label>
+      <Text fill="#370879" layoutX="689.0" layoutY="543.0" strokeType="OUTSIDE" strokeWidth="0.0" text="what is your favourite Sport?" wrappingWidth="321.0">
+         <font>
+            <Font name="Arial Bold Italic" size="20.0" />
+         </font>
+      </Text>
+      <Label fx:id="qouteReg" alignment="CENTER" layoutX="25.0" layoutY="307.0" prefHeight="73.0" prefWidth="329.0" text="Being best is my biggest wish" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Text fx:id="emailError1" fill="#f80505" layoutX="554.0" layoutY="657.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="312.0" />
+   </children>
+</AnchorPane>
