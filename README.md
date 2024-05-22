@@ -1,28 +1,67 @@
-<h1>I-Wish: Your Personalized Gift Sharing Application</h1>
-i-Wish is a feature-rich desktop application designed to enhance the joy of gift-giving and receiving among friends. With i-Wish, users can seamlessly create wish lists, share them with friends, contribute to buying items from friends' wish lists, and receive notifications about gift item purchases. Whether you're looking to surprise a friend or receive thoughtful gifts, i-Wish makes the process fun and easy.
-Features
-<h2>Client-Side Features</h2>
-1.	Registration and Sign-in: Create an account or sign in to your existing account.<br>
-2.	Friend Management: Add or remove friends and accept or decline friend requests.<br>
-3.	Wish List Management: Create, update, and delete your personal wish lists.<br>
-4.	View Friends and Their Wish Lists: See a list of your friends and their respective wish lists.<br>
-5.	Contribute to Gifts: Contribute money towards buying items from friends' wish lists.<br>
-6.	Notifications:<br>
-•	As a Buyer: Receive notifications when a gift item's price is completed.<br>
-•	As a Receiver: Get notified when an item from your wish list is bought by specific friends.<br>
-7.	User-Friendly GUI: Enjoy a friendly and intuitive graphical user interface for a delightful user experience.<br>
-<h2>Server-Side Features</h2>
-1.	Start/Stop Functionality: Control the server's operation as needed.<br>
-2.	Database Manipulation:<br>
-•	Establish database connections.<br>
-•	Execute database queries for various operations.<br>
-•	Add items to the database for users to add to their wish lists.<br>
-3.	Client Management: Handle client connections and requests efficiently.<br>
-4.	Gift Item Completion Handling: Manage the completion of gift item purchases seamlessly.<br>
-<h2>Getting Started</h2>
-To get started with i-Wish, follow these steps:<br>
-1.	Clone the repository to your local machine.<br>
-2.	Install the necessary dependencies.<br>
-3.	Configure the server settings and database connection.<br>
-4.	Run the application and start enjoying the gift-sharing experience with your friends!
+# **i-Wish Project**
 
+i-Wish is a desktop application designed to bring joy to users by enabling them to create wish lists, view friends' wish lists, and contribute to purchasing items for their friends. The application offers a user-friendly interface and several features to manage wish lists and friendships effectively.
+
+## **Abstract**
+
+i-Wish allows users to:
+
+- Add and manage friends.
+- Create, update, and delete personal wish lists.
+- View friends' wish lists and contribute to the purchase of items.
+
+The application also includes server-side functionalities for database management and client request handling.
+
+## **Features**
+
+### **Client**
+
+1. **Register/Sign-in**
+2. **Add/Remove Friend**
+3. **Accept/Decline Friend Request**
+4. **Create, Update, Delete Wish List**
+5. **View Friends List**
+6. **View Friends' Wish Lists**
+7. **Contribute to Friends' Wish Lists**
+    - Specify the amount of money towards an item's price.
+8. **Notifications**
+    - As a buyer: Receive a notification upon the completion of a gift item's price.
+    - As a receiver: Receive a notification when an item from the wish list is bought by specific friends.
+9. **User-Friendly GUI**
+    - Ensure the interface is enjoyable and easy to use.
+
+### **Server**
+
+1. **Start/Stop Server**
+2. **Database Management**
+    - Connection and queries.
+    - Adding items to the wish list database (via admin, database insertion, Amazon web service, other restful web services, or web crawling as a bonus).
+3. **Client Connection Handling**
+4. **Client Request Handling**
+
+## **Installation and Setup**
+
+1. **Clone the repository:**
+    
+    ```bash
+    bashCopy code
+    git clone https://github.com/yourusername/i-Wish.git
+    cd i-Wish
+    
+    ```
+    
+2. **Open the project in NetBeans.**
+3. **Setup the database:**
+    - Import the database schema/backup provided in the delivery package.
+4. **Run the server:**
+    - Start the server to handle client connections and requests.
+5. **Launch the client application:**
+    - Register or sign in to start using i-Wish.
+
+## **Contributing**
+
+1. Fork the repository.
+2. Create a new branch (**`git checkout -b feature-branch`**).
+3. Commit your changes (**`git commit -m 'Add some feature'`**).
+4. Push to the branch (**`git push origin feature-branch`**).
+5. Open a pull request.
