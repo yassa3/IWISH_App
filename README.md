@@ -45,7 +45,7 @@ The application also includes server-side functionalities for database managemen
     
     ```bash
     bashCopy code
-    git clone https://github.com/yourusername/i-Wish.git
+    git clone https://github.com/yassa3/IWISH_App.git
     cd i-Wish
     
     ```
